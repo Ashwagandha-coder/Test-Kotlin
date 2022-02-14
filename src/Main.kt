@@ -1,10 +1,21 @@
 fun main() {
 
-    val reka = "Hello"
+    // for each
 
-    var ruka = "Color"
+    val items = listOf("apple","orange","banana") // listOf
 
-    println("Value plus ${reka + ruka}")
+    for(item in items)
+        println(item)
+
+    var index = 0
+
+    while (index < items.size) {
+        println(items[index])
+        index++
+
+    }
+
+
 
 
 
