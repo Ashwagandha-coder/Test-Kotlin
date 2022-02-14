@@ -1,11 +1,11 @@
 fun main() {
 
-    val name:String = "Danil"
+    val reka = "Hello"
 
-    val a: Int = 5
-    val b: Int = 5
-        println("A + B = ${a + b}")
-        println("Hello $name")
-        println("ruka")
+    var ruka = "Color"
 
-    }
+    println("Value plus ${reka + ruka}")
+
+
+
+}
