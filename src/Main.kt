@@ -1,9 +1,9 @@
-fun main(args: Array<String>) {
+fun main() {
 
-    var name:String = "Danil"
+    val name:String = "Danil"
 
-    var a: Int = 5
-    var b: Int = 5
+    val a: Int = 5
+    val b: Int = 5
         println("A + B = ${a + b}")
         println("Hello $name")
         println("ruka")
