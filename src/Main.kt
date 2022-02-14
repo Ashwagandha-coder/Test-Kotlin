@@ -6,5 +6,6 @@ fun main(args: Array<String>) {
     var b: Int = 5
         println("A + B = ${a + b}")
         println("Hello $name")
+        println("ruka")
 
     }
