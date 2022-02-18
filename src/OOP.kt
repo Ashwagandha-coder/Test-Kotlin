@@ -3,7 +3,15 @@ fun main() {
     val child = OOP("boric", "Lodin", 10)
 
     val yug = OOP("Danil","Danilov", 22, child)
-    println(yug.firtName)
+    println(yug.firtName) // геттер по умолчанию
+
+    val rectangle1 = Rectangle(10.9,20.4)
+    println(rectangle1.per)
+
+    val rectangle2 = Rectangle(11.2,55.7)
+    println(rectangle2 == rectangle1)
+
+
 
 
 }
@@ -27,6 +35,18 @@ class OOP(val firtName: String, val LatName: String, var age: Int) {
     constructor(): this ("","",-1)
 }
 
-class Rectangle(var hight: Double, var length: Double) {
+data class Rectangle(var hight: Double, var length: Double) {
     var per = (hight + length)
+
+    var yut = 1
+    get() = field + 1 // field то же самое что и this.поле
+    set(value) {
+        if (value < 0) {
+            println("Null negative")
+            field = value
+        }
+
+    }
+
+    fun area() = hight * length
 }
