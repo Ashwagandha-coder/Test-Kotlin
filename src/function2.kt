@@ -11,8 +11,3 @@ fun ctroka(r: Int): String {
 
     return "ngnfgn $r"
 }
-
-fun printEven(vararg num: Int) {
-
-
-}

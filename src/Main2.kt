@@ -45,6 +45,6 @@ fun main() {
     for (j in 1 until 10)
         println(j)
 
-     for (d in 10 downTo 1)
+
     }
 }
