@@ -11,4 +11,9 @@ fun main() {
 
     a.any { it > 10 } // false
 
+    val num = listOf(1,45,34,22,-11,22,-88,-32)
+
+    val (pocitive, negative) = num.partition { it > 0 }
+
+
 }
